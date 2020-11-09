@@ -3,16 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81AB5BF7B3419C03C5934651 /* Pods_glovory_glovoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E3A4F0113A06DE242D16F2 /* Pods_glovory_glovoryUITests.framework */; };
+		A794529BC941A5489985003D /* Pods_glovoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D7D609C13C4D6F2E9994B /* Pods_glovoryTests.framework */; };
 		CE1984D0254AEDE200771F0C /* glovoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1984CF254AEDE200771F0C /* glovoryApp.swift */; };
 		CE1984D2254AEDE200771F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1984D1254AEDE200771F0C /* ContentView.swift */; };
 		CE1984D4254AEDE500771F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1984D3254AEDE500771F0C /* Assets.xcassets */; };
 		CE1984D7254AEDE500771F0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1984D6254AEDE500771F0C /* Preview Assets.xcassets */; };
 		CE1984E2254AEDE500771F0C /* glovoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1984E1254AEDE500771F0C /* glovoryTests.swift */; };
 		CE1984ED254AEDE500771F0C /* glovoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1984EC254AEDE500771F0C /* glovoryUITests.swift */; };
+		CE198506254AF02500771F0C /* CreateActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE198505254AF02500771F0C /* CreateActivity.swift */; };
+		CE19850E254AF03000771F0C /* RemindScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19850D254AF03000771F0C /* RemindScreen.swift */; };
+		CE198513254AF04900771F0C /* SelectCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE198512254AF04900771F0C /* SelectCategoryScreen.swift */; };
+		CE19851D254AFA1400771F0C /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19851C254AFA1400771F0C /* PrimaryButtonStyle.swift */; };
+		CE21259725558665007C509E /* AuthPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21259625558665007C509E /* AuthPublisher.swift */; };
+		CE4F241F2554332A009772A0 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F241E2554332A009772A0 /* Activity.swift */; };
+		CE4F2424255433F6009772A0 /* ChallengeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F2423255433F6009772A0 /* ChallengeServices.swift */; };
+		CE4F2429255439BB009772A0 /* IncrementError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F2428255439BB009772A0 /* IncrementError.swift */; };
+		CE8899D525505596007B06A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE8899D425505596007B06A5 /* GoogleService-Info.plist */; };
+		CE8C8E0C2556C33E009AA685 /* ActivityItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C8E0B2556C33E009AA685 /* ActivityItemViewModel.swift */; };
+		CE9179A72558119E00BC2901 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9179A62558119E00BC2901 /* ProgressCircleView.swift */; };
+		CE9179AC255811D000BC2901 /* ProgressCircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9179AB255811D000BC2901 /* ProgressCircleViewModel.swift */; };
+		CE9179B125582C4600BC2901 /* ActivityItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9179B025582C4600BC2901 /* ActivityItemView.swift */; };
+		CEA2E028255160B20088A323 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2E027255160B20088A323 /* UserServices.swift */; };
+		CEA6581625579CB600F5F73A /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6581525579CB600F5F73A /* SettingViewModel.swift */; };
+		CEA6581E25579CD500F5F73A /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6581D25579CD500F5F73A /* SettingsScreen.swift */; };
+		CEA6582325579D8900F5F73A /* SettingsItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6582225579D8900F5F73A /* SettingsItemViewModel.swift */; };
+		CEA658282557AB9D00F5F73A /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA658272557AB9D00F5F73A /* OnboardingViewModel.swift */; };
+		CEA6582D2557ACDA00F5F73A /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6582C2557ACDA00F5F73A /* RegistrationScreen.swift */; };
+		CEA658322557AD5800F5F73A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA658312557AD5800F5F73A /* RegistrationViewModel.swift */; };
+		CEC89E832557E12500D80134 /* TextInputCustomRoundedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC89E822557E12500D80134 /* TextInputCustomRoundedStyle.swift */; };
+		CEDC8D0E254E782500011882 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8D0D254E782500011882 /* Color+Extension.swift */; };
+		CEDC8D16254E7F1D00011882 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8D15254E7F1D00011882 /* OnboardingScreen.swift */; };
+		CEDC8D22254EA35400011882 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8D21254EA35400011882 /* DropDown.swift */; };
+		CEDC8D2A254EA4A600011882 /* DropDownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8D29254EA4A600011882 /* DropDownStyle.swift */; };
+		CEDC8D32254EAC4100011882 /* CreateActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8D31254EAC4100011882 /* CreateActivityViewModel.swift */; };
+		CEDC8D37254EB77100011882 /* DropdownItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8D36254EB77100011882 /* DropdownItemProtocol.swift */; };
+		CEE62AB42556512300746C7A /* BottomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE62AB32556512300746C7A /* BottomTab.swift */; };
+		CEE62AB92556787E00746C7A /* ActivityListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE62AB82556787E00746C7A /* ActivityListScreen.swift */; };
+		CEE62ABE255678B600746C7A /* ActivityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE62ABD255678B600746C7A /* ActivityListViewModel.swift */; };
+		CEE62AC9255679A800746C7A /* QuerySnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE62AC8255679A800746C7A /* QuerySnapshotPublisher.swift */; };
+		E354A4338416138B8977E8A0 /* Pods_glovory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8952B5490D819370A9DF05 /* Pods_glovory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E3A4F0113A06DE242D16F2 /* Pods_glovory_glovoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_glovory_glovoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808D7D609C13C4D6F2E9994B /* Pods_glovoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_glovoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901B5A197C74C6ECB2FA513E /* Pods-glovory-glovoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glovory-glovoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-glovory-glovoryUITests/Pods-glovory-glovoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3ED376557569A168C359365 /* Pods-glovoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glovoryTests.debug.xcconfig"; path = "Target Support Files/Pods-glovoryTests/Pods-glovoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3BD9E33107F20FDBBA98538 /* Pods-glovory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glovory.debug.xcconfig"; path = "Target Support Files/Pods-glovory/Pods-glovory.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1984CC254AEDE200771F0C /* glovory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glovory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1984CF254AEDE200771F0C /* glovoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glovoryApp.swift; sourceTree = "<group>"; };
 		CE1984D1254AEDE200771F0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +84,41 @@
 		CE1984E8254AEDE500771F0C /* glovoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glovoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1984EC254AEDE500771F0C /* glovoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glovoryUITests.swift; sourceTree = "<group>"; };
 		CE1984EE254AEDE500771F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE198505254AF02500771F0C /* CreateActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActivity.swift; sourceTree = "<group>"; };
+		CE19850D254AF03000771F0C /* RemindScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindScreen.swift; sourceTree = "<group>"; };
+		CE198512254AF04900771F0C /* SelectCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryScreen.swift; sourceTree = "<group>"; };
+		CE19851C254AFA1400771F0C /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		CE21259625558665007C509E /* AuthPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPublisher.swift; sourceTree = "<group>"; };
+		CE4F241E2554332A009772A0 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		CE4F2423255433F6009772A0 /* ChallengeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeServices.swift; sourceTree = "<group>"; };
+		CE4F2428255439BB009772A0 /* IncrementError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementError.swift; sourceTree = "<group>"; };
+		CE8899D425505596007B06A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE8C8E0B2556C33E009AA685 /* ActivityItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItemViewModel.swift; sourceTree = "<group>"; };
+		CE9179A62558119E00BC2901 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		CE9179AB255811D000BC2901 /* ProgressCircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleViewModel.swift; sourceTree = "<group>"; };
+		CE9179B025582C4600BC2901 /* ActivityItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItemView.swift; sourceTree = "<group>"; };
+		CEA2E027255160B20088A323 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		CEA6581525579CB600F5F73A /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		CEA6581D25579CD500F5F73A /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		CEA6582225579D8900F5F73A /* SettingsItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemViewModel.swift; sourceTree = "<group>"; };
+		CEA658272557AB9D00F5F73A /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		CEA6582C2557ACDA00F5F73A /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
+		CEA658312557AD5800F5F73A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		CEC89E822557E12500D80134 /* TextInputCustomRoundedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputCustomRoundedStyle.swift; sourceTree = "<group>"; };
+		CEDC8D0D254E782500011882 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		CEDC8D15254E7F1D00011882 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		CEDC8D21254EA35400011882 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		CEDC8D29254EA4A600011882 /* DropDownStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownStyle.swift; sourceTree = "<group>"; };
+		CEDC8D31254EAC4100011882 /* CreateActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActivityViewModel.swift; sourceTree = "<group>"; };
+		CEDC8D36254EB77100011882 /* DropdownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItemProtocol.swift; sourceTree = "<group>"; };
+		CEE62AB32556512300746C7A /* BottomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTab.swift; sourceTree = "<group>"; };
+		CEE62AB82556787E00746C7A /* ActivityListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListScreen.swift; sourceTree = "<group>"; };
+		CEE62ABD255678B600746C7A /* ActivityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListViewModel.swift; sourceTree = "<group>"; };
+		CEE62AC8255679A800746C7A /* QuerySnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuerySnapshotPublisher.swift; sourceTree = "<group>"; };
+		D7AEFC0148BCD16FFCFEA963 /* Pods-glovoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glovoryTests.release.xcconfig"; path = "Target Support Files/Pods-glovoryTests/Pods-glovoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC8952B5490D819370A9DF05 /* Pods_glovory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_glovory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE35FDDAA881E7A82C7544E8 /* Pods-glovory-glovoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glovory-glovoryUITests.release.xcconfig"; path = "Target Support Files/Pods-glovory-glovoryUITests/Pods-glovory-glovoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7FAB394EA9AC294E1B2ED15 /* Pods-glovory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glovory.release.xcconfig"; path = "Target Support Files/Pods-glovory/Pods-glovory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E354A4338416138B8977E8A0 /* Pods_glovory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A794529BC941A5489985003D /* Pods_glovoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +142,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AB5BF7B3419C03C5934651 /* Pods_glovory_glovoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BD6C2B51FC6B17FF9B1A90B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3BD9E33107F20FDBBA98538 /* Pods-glovory.debug.xcconfig */,
+				F7FAB394EA9AC294E1B2ED15 /* Pods-glovory.release.xcconfig */,
+				901B5A197C74C6ECB2FA513E /* Pods-glovory-glovoryUITests.debug.xcconfig */,
+				EE35FDDAA881E7A82C7544E8 /* Pods-glovory-glovoryUITests.release.xcconfig */,
+				B3ED376557569A168C359365 /* Pods-glovoryTests.debug.xcconfig */,
+				D7AEFC0148BCD16FFCFEA963 /* Pods-glovoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BC02444A19C3C94DA4B53EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8952B5490D819370A9DF05 /* Pods_glovory.framework */,
+				02E3A4F0113A06DE242D16F2 /* Pods_glovory_glovoryUITests.framework */,
+				808D7D609C13C4D6F2E9994B /* Pods_glovoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE1984C3254AEDE200771F0C = {
 			isa = PBXGroup;
 			children = (
+				CE8899D425505596007B06A5 /* GoogleService-Info.plist */,
 				CE1984CE254AEDE200771F0C /* glovory */,
 				CE1984E0254AEDE500771F0C /* glovoryTests */,
 				CE1984EB254AEDE500771F0C /* glovoryUITests */,
 				CE1984CD254AEDE200771F0C /* Products */,
+				1BD6C2B51FC6B17FF9B1A90B /* Pods */,
+				5BC02444A19C3C94DA4B53EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +198,14 @@
 		CE1984CE254AEDE200771F0C /* glovory */ = {
 			isa = PBXGroup;
 			children = (
+				CEC89E812557E0FE00D80134 /* Modifiers */,
+				CE8C8E102556F084009AA685 /* Error */,
+				CE21259225558649007C509E /* Publishers */,
+				CEDC8D0C254E780700011882 /* Extension */,
+				CE198501254AEEAD00771F0C /* Services */,
+				CE198500254AEEA700771F0C /* ViewModel */,
+				CE1984FF254AEEA200771F0C /* Model */,
+				CE1984FD254AEE0300771F0C /* View */,
 				CE1984CF254AEDE200771F0C /* glovoryApp.swift */,
 				CE1984D1254AEDE200771F0C /* ContentView.swift */,
 				CE1984D3254AEDE500771F0C /* Assets.xcassets */,
@@ -130,6 +241,116 @@
 			path = glovoryUITests;
 			sourceTree = "<group>";
 		};
+		CE1984FD254AEE0300771F0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC8D20254EA34400011882 /* Shared */,
+				CE198504254AF00F00771F0C /* Containers */,
+				CE198502254AF00200771F0C /* Style */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1984FF254AEEA200771F0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F241E2554332A009772A0 /* Activity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE198500254AEEA700771F0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC8D31254EAC4100011882 /* CreateActivityViewModel.swift */,
+				CEDC8D36254EB77100011882 /* DropdownItemProtocol.swift */,
+				CEE62ABD255678B600746C7A /* ActivityListViewModel.swift */,
+				CE8C8E0B2556C33E009AA685 /* ActivityItemViewModel.swift */,
+				CEA6581525579CB600F5F73A /* SettingViewModel.swift */,
+				CEA6582225579D8900F5F73A /* SettingsItemViewModel.swift */,
+				CEA658272557AB9D00F5F73A /* OnboardingViewModel.swift */,
+				CEA658312557AD5800F5F73A /* RegistrationViewModel.swift */,
+				CE9179AB255811D000BC2901 /* ProgressCircleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE198501254AEEAD00771F0C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2E027255160B20088A323 /* UserServices.swift */,
+				CE4F2423255433F6009772A0 /* ChallengeServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE198502254AF00200771F0C /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				CE19851C254AFA1400771F0C /* PrimaryButtonStyle.swift */,
+				CEDC8D29254EA4A600011882 /* DropDownStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		CE198504254AF00F00771F0C /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				CE198505254AF02500771F0C /* CreateActivity.swift */,
+				CE19850D254AF03000771F0C /* RemindScreen.swift */,
+				CE198512254AF04900771F0C /* SelectCategoryScreen.swift */,
+				CEDC8D15254E7F1D00011882 /* OnboardingScreen.swift */,
+				CEE62AB32556512300746C7A /* BottomTab.swift */,
+				CEE62AB82556787E00746C7A /* ActivityListScreen.swift */,
+				CEA6581D25579CD500F5F73A /* SettingsScreen.swift */,
+				CEA6582C2557ACDA00F5F73A /* RegistrationScreen.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		CE21259225558649007C509E /* Publishers */ = {
+			isa = PBXGroup;
+			children = (
+				CE21259625558665007C509E /* AuthPublisher.swift */,
+				CEE62AC8255679A800746C7A /* QuerySnapshotPublisher.swift */,
+			);
+			path = Publishers;
+			sourceTree = "<group>";
+		};
+		CE8C8E102556F084009AA685 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F2428255439BB009772A0 /* IncrementError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CEC89E812557E0FE00D80134 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC89E822557E12500D80134 /* TextInputCustomRoundedStyle.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		CEDC8D0C254E780700011882 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC8D0D254E782500011882 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CEDC8D20254EA34400011882 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC8D21254EA35400011882 /* DropDown.swift */,
+				CE9179A62558119E00BC2901 /* ProgressCircleView.swift */,
+				CE9179B025582C4600BC2901 /* ActivityItemView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1984F1254AEDE500771F0C /* Build configuration list for PBXNativeTarget "glovory" */;
 			buildPhases = (
+				6E37DD7941BF8C8DD34119DB /* [CP] Check Pods Manifest.lock */,
 				CE1984C8254AEDE200771F0C /* Sources */,
 				CE1984C9254AEDE200771F0C /* Frameworks */,
 				CE1984CA254AEDE200771F0C /* Resources */,
+				0DD64C142B10E950D38DB898 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +377,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1984F4254AEDE500771F0C /* Build configuration list for PBXNativeTarget "glovoryTests" */;
 			buildPhases = (
+				9AFB389DDAF45503B9201627 /* [CP] Check Pods Manifest.lock */,
 				CE1984D9254AEDE500771F0C /* Sources */,
 				CE1984DA254AEDE500771F0C /* Frameworks */,
 				CE1984DB254AEDE500771F0C /* Resources */,
@@ -172,9 +396,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1984F7254AEDE500771F0C /* Build configuration list for PBXNativeTarget "glovoryUITests" */;
 			buildPhases = (
+				C9A439542CF8264D6BB9C0CC /* [CP] Check Pods Manifest.lock */,
 				CE1984E4254AEDE500771F0C /* Sources */,
 				CE1984E5254AEDE500771F0C /* Frameworks */,
 				CE1984E6254AEDE500771F0C /* Resources */,
+				BEC7E965728E735510539AD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +461,7 @@
 			files = (
 				CE1984D7254AEDE500771F0C /* Preview Assets.xcassets in Resources */,
 				CE1984D4254AEDE500771F0C /* Assets.xcassets in Resources */,
+				CE8899D525505596007B06A5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +481,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DD64C142B10E950D38DB898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-glovory/Pods-glovory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-glovory/Pods-glovory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-glovory/Pods-glovory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E37DD7941BF8C8DD34119DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-glovory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFB389DDAF45503B9201627 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-glovoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC7E965728E735510539AD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-glovory-glovoryUITests/Pods-glovory-glovoryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-glovory-glovoryUITests/Pods-glovory-glovoryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-glovory-glovoryUITests/Pods-glovory-glovoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A439542CF8264D6BB9C0CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-glovory-glovoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE1984C8254AEDE200771F0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA6582D2557ACDA00F5F73A /* RegistrationScreen.swift in Sources */,
+				CE9179A72558119E00BC2901 /* ProgressCircleView.swift in Sources */,
+				CE21259725558665007C509E /* AuthPublisher.swift in Sources */,
+				CE19850E254AF03000771F0C /* RemindScreen.swift in Sources */,
 				CE1984D2254AEDE200771F0C /* ContentView.swift in Sources */,
+				CEE62AB92556787E00746C7A /* ActivityListScreen.swift in Sources */,
+				CEDC8D32254EAC4100011882 /* CreateActivityViewModel.swift in Sources */,
+				CEDC8D37254EB77100011882 /* DropdownItemProtocol.swift in Sources */,
+				CE9179B125582C4600BC2901 /* ActivityItemView.swift in Sources */,
+				CEA6582325579D8900F5F73A /* SettingsItemViewModel.swift in Sources */,
+				CEE62ABE255678B600746C7A /* ActivityListViewModel.swift in Sources */,
 				CE1984D0254AEDE200771F0C /* glovoryApp.swift in Sources */,
+				CE19851D254AFA1400771F0C /* PrimaryButtonStyle.swift in Sources */,
+				CE4F2424255433F6009772A0 /* ChallengeServices.swift in Sources */,
+				CE8C8E0C2556C33E009AA685 /* ActivityItemViewModel.swift in Sources */,
+				CEE62AB42556512300746C7A /* BottomTab.swift in Sources */,
+				CEDC8D2A254EA4A600011882 /* DropDownStyle.swift in Sources */,
+				CE4F241F2554332A009772A0 /* Activity.swift in Sources */,
+				CEC89E832557E12500D80134 /* TextInputCustomRoundedStyle.swift in Sources */,
+				CE9179AC255811D000BC2901 /* ProgressCircleViewModel.swift in Sources */,
+				CEDC8D16254E7F1D00011882 /* OnboardingScreen.swift in Sources */,
+				CEA658322557AD5800F5F73A /* RegistrationViewModel.swift in Sources */,
+				CEA2E028255160B20088A323 /* UserServices.swift in Sources */,
+				CEA6581E25579CD500F5F73A /* SettingsScreen.swift in Sources */,
+				CE198506254AF02500771F0C /* CreateActivity.swift in Sources */,
+				CEA658282557AB9D00F5F73A /* OnboardingViewModel.swift in Sources */,
+				CE198513254AF04900771F0C /* SelectCategoryScreen.swift in Sources */,
+				CEA6581625579CB600F5F73A /* SettingViewModel.swift in Sources */,
+				CEE62AC9255679A800746C7A /* QuerySnapshotPublisher.swift in Sources */,
+				CEDC8D0E254E782500011882 /* Color+Extension.swift in Sources */,
+				CE4F2429255439BB009772A0 /* IncrementError.swift in Sources */,
+				CEDC8D22254EA35400011882 /* DropDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +774,7 @@
 		};
 		CE1984F2254AEDE500771F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BD9E33107F20FDBBA98538 /* Pods-glovory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +797,7 @@
 		};
 		CE1984F3254AEDE500771F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FAB394EA9AC294E1B2ED15 /* Pods-glovory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +820,7 @@
 		};
 		CE1984F5254AEDE500771F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ED376557569A168C359365 /* Pods-glovoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +843,7 @@
 		};
 		CE1984F6254AEDE500771F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AEFC0148BCD16FFCFEA963 /* Pods-glovoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +866,7 @@
 		};
 		CE1984F8254AEDE500771F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901B5A197C74C6ECB2FA513E /* Pods-glovory-glovoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +887,7 @@
 		};
 		CE1984F9254AEDE500771F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE35FDDAA881E7A82C7544E8 /* Pods-glovory-glovoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
